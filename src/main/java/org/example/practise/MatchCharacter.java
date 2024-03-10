@@ -9,7 +9,7 @@ public class MatchCharacter {
         String testString = "Hello, world!";
         String vowelPattern = "[aeiou]";
 
-        List<String> listVal = Stream.of(testString.split("")).filter(x -> Pattern.matches(".*"+vowelPattern+".*", x)).toList();
+        List<String> listVal = Stream.of(testString.split(" ")).filter(x -> Pattern.matches(".*"+vowelPattern+".*", x)).toList();
 
         System.out.println(listVal);
     }
