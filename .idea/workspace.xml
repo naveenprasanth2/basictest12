@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/CheckIsoGram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/EmailValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practise/MatchCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/MatchCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practise/EmailValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/EmailValidation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +39,7 @@
     "Application.AverageOfAnArray.executor": "Run",
     "Application.CheckIsoGram.executor": "Run",
     "Application.CheckSubString.executor": "Run",
+    "Application.EmailValidation.executor": "Run",
     "Application.MatchASubstring.executor": "Run",
     "Application.MatchCharacter.executor": "Run",
     "Application.PrintCommands.executor": "Run",
