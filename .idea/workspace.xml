@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/StudentEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/SumOfEvenNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practise/EmailValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/EmailValidation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -42,7 +45,10 @@
     "Application.EmailValidation.executor": "Run",
     "Application.MatchASubstring.executor": "Run",
     "Application.MatchCharacter.executor": "Run",
+    "Application.PasswordValidation.executor": "Run",
     "Application.PrintCommands.executor": "Run",
+    "Application.StudentEval.executor": "Run",
+    "Application.SumOfEvenNumbers.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -53,7 +59,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EmailValidation">
+  <component name="RunManager" selected="Application.StudentEval">
     <configuration name="CheckIsoGram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.practise.CheckIsoGram" />
       <module name="basictest12" />
@@ -80,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatchASubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.MatchASubstring" />
+    <configuration name="PasswordValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise.PasswordValidation" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -93,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatchCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.MatchCharacter" />
+    <configuration name="StudentEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.StudentEval" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise.*" />
+          <option name="PATTERN" value="org.example.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintCommands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.PrintCommands" />
+    <configuration name="SumOfEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.SumOfEvenNumbers" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise.*" />
+          <option name="PATTERN" value="org.example.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentEval" />
+        <item itemvalue="Application.SumOfEvenNumbers" />
+        <item itemvalue="Application.PasswordValidation" />
         <item itemvalue="Application.EmailValidation" />
         <item itemvalue="Application.CheckIsoGram" />
-        <item itemvalue="Application.MatchCharacter" />
-        <item itemvalue="Application.PrintCommands" />
-        <item itemvalue="Application.MatchASubstring" />
       </list>
     </recent_temporary>
   </component>
