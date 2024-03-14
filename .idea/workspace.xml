@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/BalancedString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/RotateTheArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/RotateTheArrayUsingArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams/MergeArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +50,7 @@
     "Application.FirstNonRepCharacter.executor": "Run",
     "Application.MatchASubstring.executor": "Run",
     "Application.MatchCharacter.executor": "Run",
+    "Application.MergeArray.executor": "Run",
     "Application.MergeClassic.executor": "Run",
     "Application.MergeSortedArray.executor": "Run",
     "Application.PasswordValidation.executor": "Run",
@@ -66,13 +64,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BalancedString">
+  <component name="RunManager" selected="Application.MergeArray">
     <configuration name="BalancedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.streams.BalancedString" />
       <module name="basictest12" />
@@ -86,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeClassic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.MergeClassic" />
+    <configuration name="MergeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.MergeArray" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.MergeSortedArray" />
+    <configuration name="MergeClassic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams.MergeClassic" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeArray" />
         <item itemvalue="Application.BalancedString" />
         <item itemvalue="Application.RotateTheArrayUsingArray" />
         <item itemvalue="Application.RotateTheArray" />
         <item itemvalue="Application.MergeClassic" />
-        <item itemvalue="Application.MergeSortedArray" />
       </list>
     </recent_temporary>
   </component>
