@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/GenerateRandomValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/SortedListInsertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/FilterName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise1/FindingAnyMissingNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise1/MissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise1/SumOfAnArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +51,8 @@
     "Application.CheckSubString.executor": "Run",
     "Application.EmailValidation.executor": "Run",
     "Application.FibonacciNumbers.executor": "Run",
+    "Application.FilterName.executor": "Run",
+    "Application.FindingAnyMissingNum.executor": "Run",
     "Application.FirstNonRepCharacter.executor": "Run",
     "Application.GenerateRandomValue.executor": "Run",
     "Application.MatchASubstring.executor": "Run",
@@ -55,16 +60,20 @@
     "Application.MergeArray.executor": "Run",
     "Application.MergeClassic.executor": "Run",
     "Application.MergeSortedArray.executor": "Run",
+    "Application.MissingNumber.executor": "Run",
     "Application.PasswordValidation.executor": "Run",
     "Application.PrintCommands.executor": "Run",
     "Application.RotateTheArray.executor": "Run",
     "Application.RotateTheArrayUsingArray.executor": "Run",
     "Application.SortedListInsertion.executor": "Run",
     "Application.StudentEval.executor": "Run",
+    "Application.SumOfAnArray.executor": "Run",
     "Application.SumOfEvenNumbers.executor": "Run",
+    "Application.SwitchExp.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
@@ -73,22 +82,9 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SwitchExp">
-    <configuration name="BalancedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.BalancedString" />
-      <module name="basictest12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenerateRandomValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.GenerateRandomValue" />
+  <component name="RunManager" selected="Application.FindingAnyMissingNum">
+    <configuration name="FilterName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise.FilterName" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -100,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams.MergeArray" />
+    <configuration name="FindingAnyMissingNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise1.FindingAnyMissingNum" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.streams.*" />
+          <option name="PATTERN" value="org.example.practise1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedListInsertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.SortedListInsertion" />
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise1.MissingNumber" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise.*" />
+          <option name="PATTERN" value="org.example.practise1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumOfAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise1.SumOfAnArray" />
+      <module name="basictest12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.practise1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindingAnyMissingNum" />
+        <item itemvalue="Application.MissingNumber" />
+        <item itemvalue="Application.SumOfAnArray" />
+        <item itemvalue="Application.FilterName" />
         <item itemvalue="Application.SwitchExp" />
-        <item itemvalue="Application.GenerateRandomValue" />
-        <item itemvalue="Application.SortedListInsertion" />
-        <item itemvalue="Application.MergeArray" />
-        <item itemvalue="Application.BalancedString" />
       </list>
     </recent_temporary>
   </component>
