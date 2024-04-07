@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/CloneBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/ComparatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/FunctionalInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/ReflectionSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/SerializableBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/SortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/BalancedString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/SortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/person/PersonEval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practise/SwitchExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/SwitchExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/singleton/SortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/SortedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,17 +75,19 @@
     "Application.MergeSortedArray.executor": "Run",
     "Application.MissingNumber.executor": "Run",
     "Application.PasswordValidation.executor": "Run",
+    "Application.PersonEval.executor": "Run",
     "Application.PrintCommands.executor": "Run",
     "Application.ReflectionSingleton.executor": "Run",
     "Application.RotateTheArray.executor": "Run",
     "Application.RotateTheArrayUsingArray.executor": "Run",
     "Application.SerializableBreak.executor": "Run",
-    "Application.SortedList.executor": "Run",
+    "Application.SortedList.executor": "Debug",
     "Application.SortedListInsertion.executor": "Run",
     "Application.StudentEval.executor": "Run",
     "Application.SumOfAnArray.executor": "Run",
     "Application.SumOfEvenNumbers.executor": "Run",
     "Application.SwitchExp.executor": "Run",
+    "Application.org.example.logics.SortedList.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -104,7 +101,20 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SortedList">
+  <component name="RunManager" selected="Application.BalancedString">
+    <configuration name="BalancedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.logics.BalancedString" />
+      <module name="basictest12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.logics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CloneBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.singleton.CloneBreak" />
       <module name="basictest12" />
@@ -118,25 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.singleton.ReflectionSingleton" />
+    <configuration name="PersonEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.person.PersonEval" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SerializableBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.singleton.SerializableBreak" />
-      <module name="basictest12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.singleton.*" />
+          <option name="PATTERN" value="org.example.person.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchExp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.SwitchExp" />
+    <configuration name="org.example.logics.SortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.logics.SortedList" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise.*" />
+          <option name="PATTERN" value="org.example.logics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BalancedString" />
+        <item itemvalue="Application.PersonEval" />
+        <item itemvalue="Application.org.example.logics.SortedList" />
         <item itemvalue="Application.SortedList" />
         <item itemvalue="Application.CloneBreak" />
-        <item itemvalue="Application.SerializableBreak" />
-        <item itemvalue="Application.ReflectionSingleton" />
-        <item itemvalue="Application.SwitchExp" />
       </list>
     </recent_temporary>
   </component>
