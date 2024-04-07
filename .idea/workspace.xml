@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/FilterName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise1/FindingAnyMissingNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise1/MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise1/SumOfAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/CloneBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/ComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/FunctionalInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/ReflectionSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/SerializableBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/SortedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practise/SwitchExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practise/SwitchExp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;naveenprasanth2&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/naveenprasanth2/basictest12.git&quot;,
+    &quot;accountId&quot;: &quot;9ea0d2fb-3fa9-4b0c-942f-863c5b2b9bb4&quot;
+  }
+}</component>
   <component name="MavenRunner">
     <option name="jreName" value="sapmachine-21" />
   </component>
@@ -49,6 +66,7 @@
     "Application.CheckIsoGram.executor": "Run",
     "Application.CheckPalindrome.executor": "Run",
     "Application.CheckSubString.executor": "Run",
+    "Application.CloneBreak.executor": "Run",
     "Application.EmailValidation.executor": "Run",
     "Application.FibonacciNumbers.executor": "Run",
     "Application.FilterName.executor": "Run",
@@ -63,8 +81,11 @@
     "Application.MissingNumber.executor": "Run",
     "Application.PasswordValidation.executor": "Run",
     "Application.PrintCommands.executor": "Run",
+    "Application.ReflectionSingleton.executor": "Run",
     "Application.RotateTheArray.executor": "Run",
     "Application.RotateTheArrayUsingArray.executor": "Run",
+    "Application.SerializableBreak.executor": "Run",
+    "Application.SortedList.executor": "Run",
     "Application.SortedListInsertion.executor": "Run",
     "Application.StudentEval.executor": "Run",
     "Application.SumOfAnArray.executor": "Run",
@@ -75,20 +96,21 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.preview.features.used": "true",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FindingAnyMissingNum">
-    <configuration name="FilterName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise.FilterName" />
+  <component name="RunManager" selected="Application.SortedList">
+    <configuration name="CloneBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.singleton.CloneBreak" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise.*" />
+          <option name="PATTERN" value="org.example.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindingAnyMissingNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise1.FindingAnyMissingNum" />
+    <configuration name="ReflectionSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.singleton.ReflectionSingleton" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise1.*" />
+          <option name="PATTERN" value="org.example.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise1.MissingNumber" />
+    <configuration name="SerializableBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.singleton.SerializableBreak" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise1.*" />
+          <option name="PATTERN" value="org.example.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise1.SumOfAnArray" />
+    <configuration name="SortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.singleton.SortedList" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise1.*" />
+          <option name="PATTERN" value="org.example.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,23 +172,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindingAnyMissingNum" />
-        <item itemvalue="Application.MissingNumber" />
-        <item itemvalue="Application.SumOfAnArray" />
-        <item itemvalue="Application.FilterName" />
+        <item itemvalue="Application.SortedList" />
+        <item itemvalue="Application.CloneBreak" />
+        <item itemvalue="Application.SerializableBreak" />
+        <item itemvalue="Application.ReflectionSingleton" />
         <item itemvalue="Application.SwitchExp" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.9-azul-17.0.9-8336523bb0d9-95c9aa45" />
-        <option value="jdk-21.0.1-openjdk-21.0.1-e1d2075fd9a7-44b2a9b4" />
-        <option value="jdk-21.0.1-sapmachine-21.0.1-e1d2075fd9a7-93a1abd2" />
-        <option value="jdk-21.0.2-sapmachine-21.0.2-3183f394aec4-0f592f4b" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
