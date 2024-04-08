@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/FuncEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/MathOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/InnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/JavaLatest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +69,8 @@
     "Application.FirstNonRepCharacter.executor": "Run",
     "Application.FuncEval.executor": "Run",
     "Application.GenerateRandomValue.executor": "Run",
+    "Application.InnerClass.executor": "Run",
+    "Application.JavaLatest.executor": "Run",
     "Application.MatchASubstring.executor": "Run",
     "Application.MatchCharacter.executor": "Run",
     "Application.MergeArray.executor": "Run",
@@ -88,19 +92,26 @@
     "Application.SwitchExp.executor": "Run",
     "Application.org.example.logics.SortedList.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.basictest12 [clean].executor": "Run",
+    "Maven.basictest12 [compile].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.preview.features.used": "true",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "project.kotlinCompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FuncEval">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.InnerClass">
     <configuration name="BalString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.logics.BalString" />
       <module name="basictest12" />
@@ -140,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.person.PersonEval" />
+    <configuration name="InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.logics.InnerClass" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.person.*" />
+          <option name="PATTERN" value="org.example.logics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,8 +164,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.logics.SortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.logics.SortedList" />
+    <configuration name="JavaLatest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.logics.JavaLatest" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -168,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InnerClass" />
+        <item itemvalue="Application.JavaLatest" />
         <item itemvalue="Application.FuncEval" />
         <item itemvalue="Application.BalString" />
         <item itemvalue="Application.BalancedString" />
-        <item itemvalue="Application.PersonEval" />
-        <item itemvalue="Application.org.example.logics.SortedList" />
       </list>
     </recent_temporary>
   </component>
