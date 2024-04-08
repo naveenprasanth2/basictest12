@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/BalancedString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/SortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/person/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/person/PersonEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/BalString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/singleton/SortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/SortedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/logics/BalancedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/BalancedString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +54,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AverageOfAnArray.executor": "Run",
+    "Application.BalString.executor": "Run",
     "Application.BalancedString.executor": "Run",
     "Application.CheckIsoGram.executor": "Run",
     "Application.CheckPalindrome.executor": "Run",
@@ -101,9 +99,9 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BalancedString">
-    <configuration name="BalancedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.logics.BalancedString" />
+  <component name="RunManager" selected="Application.BalString">
+    <configuration name="BalString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.logics.BalString" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -115,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloneBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.singleton.CloneBreak" />
+    <configuration name="BalancedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.logics.BalancedString" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.singleton.*" />
+          <option name="PATTERN" value="org.example.logics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BalString" />
         <item itemvalue="Application.BalancedString" />
         <item itemvalue="Application.PersonEval" />
         <item itemvalue="Application.org.example.logics.SortedList" />
         <item itemvalue="Application.SortedList" />
-        <item itemvalue="Application.CloneBreak" />
       </list>
     </recent_temporary>
   </component>
