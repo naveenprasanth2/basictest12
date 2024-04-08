@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/BalString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/FuncEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/MathOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/logics/BalancedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/BalancedString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +65,7 @@
     "Application.FilterName.executor": "Run",
     "Application.FindingAnyMissingNum.executor": "Run",
     "Application.FirstNonRepCharacter.executor": "Run",
+    "Application.FuncEval.executor": "Run",
     "Application.GenerateRandomValue.executor": "Run",
     "Application.MatchASubstring.executor": "Run",
     "Application.MatchCharacter.executor": "Run",
@@ -99,7 +100,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BalString">
+  <component name="RunManager" selected="Application.FuncEval">
     <configuration name="BalString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.logics.BalString" />
       <module name="basictest12" />
@@ -126,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.person.PersonEval" />
+    <configuration name="FuncEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.logics.FuncEval" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.person.*" />
+          <option name="PATTERN" value="org.example.logics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.singleton.SortedList" />
+    <configuration name="PersonEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.person.PersonEval" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.singleton.*" />
+          <option name="PATTERN" value="org.example.person.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FuncEval" />
         <item itemvalue="Application.BalString" />
         <item itemvalue="Application.BalancedString" />
         <item itemvalue="Application.PersonEval" />
         <item itemvalue="Application.org.example.logics.SortedList" />
-        <item itemvalue="Application.SortedList" />
       </list>
     </recent_temporary>
   </component>
