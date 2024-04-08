@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/InnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/JavaLatest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise2/AddInSortedWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise2/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise2/FindDuplicateUsingSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise2/GenerateRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise2/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise2/ReverseAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise2/SortUsingPriorQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/logics/InnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/InnerClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AddInSortedWay.executor": "Run",
     "Application.AverageOfAnArray.executor": "Run",
     "Application.BalString.executor": "Run",
     "Application.BalancedString.executor": "Run",
@@ -65,9 +70,12 @@
     "Application.EmailValidation.executor": "Run",
     "Application.FibonacciNumbers.executor": "Run",
     "Application.FilterName.executor": "Run",
+    "Application.FindDuplicate.executor": "Run",
+    "Application.FindDuplicateUsingSet.executor": "Run",
     "Application.FindingAnyMissingNum.executor": "Run",
     "Application.FirstNonRepCharacter.executor": "Run",
     "Application.FuncEval.executor": "Run",
+    "Application.GenerateRandom.executor": "Run",
     "Application.GenerateRandomValue.executor": "Run",
     "Application.InnerClass.executor": "Run",
     "Application.JavaLatest.executor": "Run",
@@ -79,11 +87,14 @@
     "Application.MissingNumber.executor": "Run",
     "Application.PasswordValidation.executor": "Run",
     "Application.PersonEval.executor": "Run",
+    "Application.PrimeNumber.executor": "Run",
     "Application.PrintCommands.executor": "Run",
     "Application.ReflectionSingleton.executor": "Run",
+    "Application.ReverseAString.executor": "Run",
     "Application.RotateTheArray.executor": "Run",
     "Application.RotateTheArrayUsingArray.executor": "Run",
     "Application.SerializableBreak.executor": "Run",
+    "Application.SortUsingPriorQueue.executor": "Run",
     "Application.SortedList.executor": "Debug",
     "Application.SortedListInsertion.executor": "Run",
     "Application.StudentEval.executor": "Run",
@@ -111,13 +122,13 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.InnerClass">
-    <configuration name="BalString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.logics.BalString" />
+  <component name="RunManager" selected="Application.SortUsingPriorQueue">
+    <configuration name="AddInSortedWay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise2.AddInSortedWay" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.logics.*" />
+          <option name="PATTERN" value="org.example.practise2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BalancedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.logics.BalancedString" />
+    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise2.FindDuplicate" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.logics.*" />
+          <option name="PATTERN" value="org.example.practise2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.logics.FuncEval" />
+    <configuration name="FindDuplicateUsingSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise2.FindDuplicateUsingSet" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.logics.*" />
+          <option name="PATTERN" value="org.example.practise2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.logics.InnerClass" />
+    <configuration name="GenerateRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise2.GenerateRandom" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.logics.*" />
+          <option name="PATTERN" value="org.example.practise2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaLatest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.logics.JavaLatest" />
+    <configuration name="SortUsingPriorQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise2.SortUsingPriorQueue" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.logics.*" />
+          <option name="PATTERN" value="org.example.practise2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InnerClass" />
-        <item itemvalue="Application.JavaLatest" />
-        <item itemvalue="Application.FuncEval" />
-        <item itemvalue="Application.BalString" />
-        <item itemvalue="Application.BalancedString" />
+        <item itemvalue="Application.SortUsingPriorQueue" />
+        <item itemvalue="Application.AddInSortedWay" />
+        <item itemvalue="Application.GenerateRandom" />
+        <item itemvalue="Application.FindDuplicateUsingSet" />
+        <item itemvalue="Application.FindDuplicate" />
       </list>
     </recent_temporary>
   </component>
