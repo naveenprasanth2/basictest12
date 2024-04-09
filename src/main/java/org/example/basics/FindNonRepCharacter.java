@@ -10,6 +10,6 @@ public class FindNonRepCharacter {
        List<String> test =  Stream.of(a.replaceAll("\\s", "").split("")).toList();
                 test.stream().filter(x -> Collections.frequency(test, x) == 1)
                         .findFirst().ifPresentOrElse(System.out::println, ()-> System.out.println("not present"));
-                
+
     }
 }
