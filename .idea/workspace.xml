@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/ConvertInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/EmployeeEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/FindFirstAndLast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/FindWordsFromSentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/FindNonRepCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +72,7 @@
     "Application.FindDuplicate.executor": "Run",
     "Application.FindDuplicateUsingSet.executor": "Run",
     "Application.FindFirstAndLast.executor": "Run",
+    "Application.FindNonRepCharacter.executor": "Run",
     "Application.FindWordsFromSentence.executor": "Run",
     "Application.FindingAnyMissingNum.executor": "Run",
     "Application.FirstNonRepCharacter.executor": "Run",
@@ -128,20 +124,7 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindWordsFromSentence">
-    <configuration name="ConsecutiveCountNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.basics.ConsecutiveCountNew" />
-      <module name="basictest12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FindNonRepCharacter">
     <configuration name="ConvertInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.basics.ConvertInteger" />
       <module name="basictest12" />
@@ -181,6 +164,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindNonRepCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.basics.FindNonRepCharacter" />
+      <module name="basictest12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindWordsFromSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.basics.FindWordsFromSentence" />
       <module name="basictest12" />
@@ -196,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindNonRepCharacter" />
         <item itemvalue="Application.FindWordsFromSentence" />
         <item itemvalue="Application.FindFirstAndLast" />
         <item itemvalue="Application.EmployeeEval" />
         <item itemvalue="Application.ConvertInteger" />
-        <item itemvalue="Application.ConsecutiveCountNew" />
       </list>
     </recent_temporary>
   </component>
