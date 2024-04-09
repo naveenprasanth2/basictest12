@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/CheckAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/ConsecutiveCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/ConsecutiveCountNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/ConvertCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/ConvertInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/EmployeeEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/FindFirstAndLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/FindWordsFromSentence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +69,15 @@
     "Application.ConsecutiveCount.executor": "Run",
     "Application.ConsecutiveCountNew.executor": "Run",
     "Application.ConvertCharacter.executor": "Run",
+    "Application.ConvertInteger.executor": "Run",
     "Application.EmailValidation.executor": "Run",
+    "Application.EmployeeEval.executor": "Run",
     "Application.FibonacciNumbers.executor": "Run",
     "Application.FilterName.executor": "Run",
     "Application.FindDuplicate.executor": "Run",
     "Application.FindDuplicateUsingSet.executor": "Run",
+    "Application.FindFirstAndLast.executor": "Run",
+    "Application.FindWordsFromSentence.executor": "Run",
     "Application.FindingAnyMissingNum.executor": "Run",
     "Application.FirstNonRepCharacter.executor": "Run",
     "Application.FuncEval.executor": "Run",
@@ -122,33 +128,7 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsecutiveCountNew">
-    <configuration name="CheckAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.basics.CheckAnagram" />
-      <module name="basictest12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsecutiveCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.basics.ConsecutiveCount" />
-      <module name="basictest12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FindWordsFromSentence">
     <configuration name="ConsecutiveCountNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.basics.ConsecutiveCountNew" />
       <module name="basictest12" />
@@ -162,8 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.basics.ConvertCharacter" />
+    <configuration name="ConvertInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.basics.ConvertInteger" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -175,12 +155,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortUsingPriorQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise2.SortUsingPriorQueue" />
+    <configuration name="EmployeeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.basics.EmployeeEval" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise2.*" />
+          <option name="PATTERN" value="org.example.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindFirstAndLast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.basics.FindFirstAndLast" />
+      <module name="basictest12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindWordsFromSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.basics.FindWordsFromSentence" />
+      <module name="basictest12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindWordsFromSentence" />
+        <item itemvalue="Application.FindFirstAndLast" />
+        <item itemvalue="Application.EmployeeEval" />
+        <item itemvalue="Application.ConvertInteger" />
         <item itemvalue="Application.ConsecutiveCountNew" />
-        <item itemvalue="Application.ConsecutiveCount" />
-        <item itemvalue="Application.CheckAnagram" />
-        <item itemvalue="Application.ConvertCharacter" />
-        <item itemvalue="Application.SortUsingPriorQueue" />
       </list>
     </recent_temporary>
   </component>
