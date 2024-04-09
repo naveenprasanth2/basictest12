@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise2/AddInSortedWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise2/FindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise2/FindDuplicateUsingSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise2/GenerateRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise2/PrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise2/ReverseAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise2/SortUsingPriorQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/CheckAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/ConsecutiveCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/ConsecutiveCountNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/ConvertCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/logics/InnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/logics/InnerClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +59,14 @@
     "Application.AverageOfAnArray.executor": "Run",
     "Application.BalString.executor": "Run",
     "Application.BalancedString.executor": "Run",
+    "Application.CheckAnagram.executor": "Run",
     "Application.CheckIsoGram.executor": "Run",
     "Application.CheckPalindrome.executor": "Run",
     "Application.CheckSubString.executor": "Run",
     "Application.CloneBreak.executor": "Run",
+    "Application.ConsecutiveCount.executor": "Run",
+    "Application.ConsecutiveCountNew.executor": "Run",
+    "Application.ConvertCharacter.executor": "Run",
     "Application.EmailValidation.executor": "Run",
     "Application.FibonacciNumbers.executor": "Run",
     "Application.FilterName.executor": "Run",
@@ -122,13 +122,13 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortUsingPriorQueue">
-    <configuration name="AddInSortedWay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise2.AddInSortedWay" />
+  <component name="RunManager" selected="Application.ConsecutiveCountNew">
+    <configuration name="CheckAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.basics.CheckAnagram" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise2.*" />
+          <option name="PATTERN" value="org.example.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise2.FindDuplicate" />
+    <configuration name="ConsecutiveCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.basics.ConsecutiveCount" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise2.*" />
+          <option name="PATTERN" value="org.example.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDuplicateUsingSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise2.FindDuplicateUsingSet" />
+    <configuration name="ConsecutiveCountNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.basics.ConsecutiveCountNew" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise2.*" />
+          <option name="PATTERN" value="org.example.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerateRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise2.GenerateRandom" />
+    <configuration name="ConvertCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.basics.ConvertCharacter" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise2.*" />
+          <option name="PATTERN" value="org.example.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsecutiveCountNew" />
+        <item itemvalue="Application.ConsecutiveCount" />
+        <item itemvalue="Application.CheckAnagram" />
+        <item itemvalue="Application.ConvertCharacter" />
         <item itemvalue="Application.SortUsingPriorQueue" />
-        <item itemvalue="Application.AddInSortedWay" />
-        <item itemvalue="Application.GenerateRandom" />
-        <item itemvalue="Application.FindDuplicateUsingSet" />
-        <item itemvalue="Application.FindDuplicate" />
       </list>
     </recent_temporary>
   </component>
