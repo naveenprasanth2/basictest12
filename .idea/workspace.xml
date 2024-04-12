@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/ZerosToEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/FibonacciSeries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +68,7 @@
     "Application.EmailValidation.executor": "Run",
     "Application.EmployeeEval.executor": "Run",
     "Application.FibonacciNumbers.executor": "Run",
+    "Application.FibonacciSeries.executor": "Run",
     "Application.FilterName.executor": "Run",
     "Application.FindDuplicate.executor": "Run",
     "Application.FindDuplicateUsingSet.executor": "Run",
@@ -130,7 +131,7 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ZerosToEnd">
+  <component name="RunManager" selected="Application.FibonacciSeries">
     <configuration name="EmployeeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.basics.EmployeeEval" />
       <module name="basictest12" />
@@ -144,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintInFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.basics.PrintInFormat" />
+    <configuration name="FibonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.basics.FibonacciSeries" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -198,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciSeries" />
         <item itemvalue="Application.ZerosToEnd" />
         <item itemvalue="Application.EmployeeEval" />
         <item itemvalue="Application.ReverseAString" />
         <item itemvalue="Application.PutAllZerosToEnd" />
-        <item itemvalue="Application.PrintInFormat" />
       </list>
     </recent_temporary>
   </component>
