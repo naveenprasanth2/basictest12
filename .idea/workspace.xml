@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/FibonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/PrinterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +97,7 @@
     "Application.PrimeNumber.executor": "Run",
     "Application.PrintCommands.executor": "Run",
     "Application.PrintInFormat.executor": "Run",
+    "Application.PrinterTest.executor": "Run",
     "Application.PutAllZerosToEnd.executor": "Run",
     "Application.ReflectionSingleton.executor": "Run",
     "Application.ReverseAString.executor": "Run",
@@ -131,7 +133,7 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.FibonacciSeries">
+  <component name="RunManager" selected="Application.PrinterTest">
     <configuration name="EmployeeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.basics.EmployeeEval" />
       <module name="basictest12" />
@@ -158,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PutAllZerosToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.basics.PutAllZerosToEnd" />
+    <configuration name="PrinterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.generics.PrinterTest" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.basics.*" />
+          <option name="PATTERN" value="org.example.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrinterTest" />
         <item itemvalue="Application.FibonacciSeries" />
         <item itemvalue="Application.ZerosToEnd" />
         <item itemvalue="Application.EmployeeEval" />
         <item itemvalue="Application.ReverseAString" />
-        <item itemvalue="Application.PutAllZerosToEnd" />
       </list>
     </recent_temporary>
   </component>
