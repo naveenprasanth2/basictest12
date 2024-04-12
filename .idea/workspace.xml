@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/PrinterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/AnimalEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/AnimalImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AddInSortedWay.executor": "Run",
+    "Application.AnimalEval.executor": "Run",
     "Application.AverageOfAnArray.executor": "Run",
     "Application.BalString.executor": "Run",
     "Application.BalancedString.executor": "Run",
@@ -133,7 +137,20 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrinterTest">
+  <component name="RunManager" selected="Application.AnimalEval">
+    <configuration name="AnimalEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.generics.AnimalEval" />
+      <module name="basictest12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmployeeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.basics.EmployeeEval" />
       <module name="basictest12" />
@@ -173,19 +190,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.basics.ReverseAString" />
-      <module name="basictest12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ZerosToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.basics.ZerosToEnd" />
       <module name="basictest12" />
@@ -201,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnimalEval" />
         <item itemvalue="Application.PrinterTest" />
         <item itemvalue="Application.FibonacciSeries" />
         <item itemvalue="Application.ZerosToEnd" />
         <item itemvalue="Application.EmployeeEval" />
-        <item itemvalue="Application.ReverseAString" />
       </list>
     </recent_temporary>
   </component>
