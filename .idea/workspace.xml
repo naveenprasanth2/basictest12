@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/AnimalEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/AnimalImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/GenericsMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/generics/AnimalEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/AnimalEval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/generics/AnimalImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/AnimalImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/generics/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/generics/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +86,7 @@
     "Application.FuncEval.executor": "Run",
     "Application.GenerateRandom.executor": "Run",
     "Application.GenerateRandomValue.executor": "Run",
+    "Application.GenericsMethods.executor": "Run",
     "Application.GetUpperCase.executor": "Run",
     "Application.InnerClass.executor": "Run",
     "Application.JavaLatest.executor": "Run",
@@ -137,7 +138,7 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnimalEval">
+  <component name="RunManager" selected="Application.GenericsMethods">
     <configuration name="AnimalEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.generics.AnimalEval" />
       <module name="basictest12" />
@@ -151,8 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.basics.EmployeeEval" />
+    <configuration name="FibonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.basics.FibonacciSeries" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -164,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.basics.FibonacciSeries" />
+    <configuration name="GenericsMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.generics.GenericsMethods" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.basics.*" />
+          <option name="PATTERN" value="org.example.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericsMethods" />
         <item itemvalue="Application.AnimalEval" />
         <item itemvalue="Application.PrinterTest" />
         <item itemvalue="Application.FibonacciSeries" />
         <item itemvalue="Application.ZerosToEnd" />
-        <item itemvalue="Application.EmployeeEval" />
       </list>
     </recent_temporary>
   </component>

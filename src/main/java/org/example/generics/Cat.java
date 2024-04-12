@@ -1,6 +1,8 @@
 package org.example.generics;
 
-public class Cat extends Animal {
+import java.io.Serializable;
+
+public class Cat extends Animal implements Serializable {
     public void print() {
         System.out.println("I'm in cat class");
     }
