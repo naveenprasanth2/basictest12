@@ -1,8 +1,13 @@
 package org.example.threads;
 
+import lombok.AllArgsConstructor;
+
 import java.util.stream.IntStream;
 
-public class MultiThread extends Thread{
+@AllArgsConstructor
+public class MultiThread extends Thread {
+    int threadNumber;
+
     @Override
     public void run() {
         IntStream.rangeClosed(0, 5).forEach(x -> {
@@ -11,7 +16,10 @@ public class MultiThread extends Thread{
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            System.out.println(x);
+            if (threadNumber == 3){
+                throw new RuntimeException("This is thread 3");
+            }
+            System.out.println(STR."the value is \{x} and the thread number is \{threadNumber}");
         });
     }
 

@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inner/Anonymous.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inner/AnonymousInnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealed/SealedEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/MultiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/MultiThreadEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams1/CurrencyManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams1/StringList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams1/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/inner/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/inner/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/inner/InnerEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/inner/InnerEval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/threads/MultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/MultiThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/threads/MultiThreadEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/MultiThreadEval.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +119,7 @@
     "Application.SortUsingPriorQueue.executor": "Run",
     "Application.SortedList.executor": "Debug",
     "Application.SortedListInsertion.executor": "Run",
+    "Application.StringList.executor": "Run",
     "Application.StudentEval.executor": "Run",
     "Application.SumOfAnArray.executor": "Run",
     "Application.SumOfEvenNumbers.executor": "Run",
@@ -152,7 +151,7 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MultiThreadEval">
+  <component name="RunManager" selected="Application.CurrencyManipulation">
     <configuration name="Anonymous (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.inner.Anonymous" />
       <module name="basictest12" />
@@ -179,25 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnonymousInnerClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.inner.AnonymousInnerClass" />
+    <configuration name="CurrencyManipulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams1.CurrencyManipulation" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.inner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnonymousInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.inner.AnonymousInnerClass" />
-      <module name="basictest12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.inner.*" />
+          <option name="PATTERN" value="org.example.streams1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,13 +204,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streams1.StringList" />
+      <module name="basictest12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.streams1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CurrencyManipulation" />
+        <item itemvalue="Application.StringList" />
         <item itemvalue="Application.MultiThreadEval" />
         <item itemvalue="Application.Anonymous (1)" />
         <item itemvalue="Application.Anonymous" />
-        <item itemvalue="Application.AnonymousInnerClass (1)" />
-        <item itemvalue="Application.AnonymousInnerClass" />
       </list>
     </recent_temporary>
   </component>
