@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/CheckIsogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inner/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inner/SealedEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealed/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealed/Elephant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealed/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inner/Anonymous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inner/AnonymousInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sealed/SealedEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/MultiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/MultiThreadEval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/inner/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/inner/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/inner/InnerEval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/inner/InnerEval.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,10 @@
   "keyToString": {
     "Application.AddInSortedWay.executor": "Run",
     "Application.AnimalEval.executor": "Run",
+    "Application.Anonymous (1).executor": "Run",
+    "Application.Anonymous.executor": "Run",
+    "Application.AnonymousInnerClass (1).executor": "Run",
+    "Application.AnonymousInnerClass.executor": "Run",
     "Application.AverageOfAnArray.executor": "Run",
     "Application.BalString.executor": "Run",
     "Application.BalancedString.executor": "Run",
@@ -98,6 +103,7 @@
     "Application.MergeClassic.executor": "Run",
     "Application.MergeSortedArray.executor": "Run",
     "Application.MissingNumber.executor": "Run",
+    "Application.MultiThreadEval.executor": "Run",
     "Application.NoOfOccurrences.executor": "Run",
     "Application.PasswordValidation.executor": "Run",
     "Application.PersonEval.executor": "Run",
@@ -146,48 +152,9 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.InnerEval">
-    <configuration name="AnimalEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.generics.AnimalEval" />
-      <module name="basictest12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckIsogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.generics.CheckIsogram" />
-      <module name="basictest12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericsMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.generics.GenericsMethods" />
-      <module name="basictest12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InnerEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.inner.InnerEval" />
+  <component name="RunManager" selected="Application.MultiThreadEval">
+    <configuration name="Anonymous (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.inner.Anonymous" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -199,12 +166,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrinterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.generics.PrinterTest" />
+    <configuration name="Anonymous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.inner.Anonymous" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.generics.*" />
+          <option name="PATTERN" value="org.example.inner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnonymousInnerClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.inner.AnonymousInnerClass" />
+      <module name="basictest12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.inner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnonymousInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.inner.AnonymousInnerClass" />
+      <module name="basictest12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.inner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiThreadEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threads.MultiThreadEval" />
+      <module name="basictest12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InnerEval" />
-        <item itemvalue="Application.CheckIsogram" />
-        <item itemvalue="Application.GenericsMethods" />
-        <item itemvalue="Application.AnimalEval" />
-        <item itemvalue="Application.PrinterTest" />
+        <item itemvalue="Application.MultiThreadEval" />
+        <item itemvalue="Application.Anonymous (1)" />
+        <item itemvalue="Application.Anonymous" />
+        <item itemvalue="Application.AnonymousInnerClass (1)" />
+        <item itemvalue="Application.AnonymousInnerClass" />
       </list>
     </recent_temporary>
   </component>
