@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise1/RandomGeneration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams1/DateTimeEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise1/AnonymousClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise1/Implementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise1/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streams1/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/ThreadRunnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +61,7 @@
     "Application.AnimalEval.executor": "Run",
     "Application.Anonymous (1).executor": "Run",
     "Application.Anonymous.executor": "Run",
+    "Application.AnonymousClass.executor": "Run",
     "Application.AnonymousInnerClass (1).executor": "Run",
     "Application.AnonymousInnerClass.executor": "Run",
     "Application.AverageOfAnArray.executor": "Run",
@@ -92,6 +97,8 @@
     "Application.GenerateRandomValue.executor": "Run",
     "Application.GenericsMethods.executor": "Run",
     "Application.GetUpperCase.executor": "Run",
+    "Application.Implementation (1).executor": "Run",
+    "Application.Implementation.executor": "Run",
     "Application.InnerClass.executor": "Run",
     "Application.JavaLatest.executor": "Run",
     "Application.MatchASubstring.executor": "Run",
@@ -124,6 +131,11 @@
     "Application.SumOfAnArray.executor": "Run",
     "Application.SumOfEvenNumbers.executor": "Run",
     "Application.SwitchExp.executor": "Run",
+    "Application.ThreadDemo (1).executor": "Run",
+    "Application.ThreadDemo (2).executor": "Run",
+    "Application.ThreadDemo.executor": "Run",
+    "Application.ThreadRunnable (1).executor": "Run",
+    "Application.ThreadRunnable.executor": "Run",
     "Application.ZerosToEnd.executor": "Run",
     "Application.org.example.logics.SortedList.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -151,48 +163,9 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.RandomGeneration">
-    <configuration name="CurrencyManipulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams1.CurrencyManipulation" />
-      <module name="basictest12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.streams1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateTimeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams1.DateTimeEval" />
-      <module name="basictest12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.streams1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiThreadEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threads.MultiThreadEval" />
-      <module name="basictest12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomGeneration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise1.RandomGeneration" />
+  <component name="RunManager" selected="Application.ThreadRunnable">
+    <configuration name="Implementation (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise1.Implementation" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -204,12 +177,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.streams1.StringList" />
+    <configuration name="Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise1.Implementation" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.streams1.*" />
+          <option name="PATTERN" value="org.example.practise1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threads.ThreadDemo" />
+      <module name="basictest12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadRunnable (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threads.ThreadRunnable" />
+      <module name="basictest12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threads.ThreadRunnable" />
+      <module name="basictest12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RandomGeneration" />
-        <item itemvalue="Application.DateTimeEval" />
-        <item itemvalue="Application.CurrencyManipulation" />
-        <item itemvalue="Application.StringList" />
-        <item itemvalue="Application.MultiThreadEval" />
+        <item itemvalue="Application.ThreadRunnable" />
+        <item itemvalue="Application.ThreadRunnable (1)" />
+        <item itemvalue="Application.Implementation (1)" />
+        <item itemvalue="Application.Implementation" />
+        <item itemvalue="Application.ThreadDemo" />
       </list>
     </recent_temporary>
   </component>
