@@ -30,15 +30,15 @@ class Helloo implements Runnable {
 
 
 public class ThreadRunnable {
-    public static void main(String[] args) {
-        Thread hi = Thread.startVirtualThread(new Hii());
-        hi.setName("Hi one");
+    public static void main() {
+        Thread hi = new Thread(new Hii());
+        Thread hello = new Thread(new Helloo());
+        hi.start();
         try {
             Thread.sleep(10);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        Thread hello = Thread.startVirtualThread(new Helloo());
-        hello.setName("Hello one");
+        hello.start();
     }
 }
