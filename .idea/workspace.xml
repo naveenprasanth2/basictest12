@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/CreatingAnnotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/RunImmediately.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotations/VeryImportant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise1/LambdaEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise1/NewInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton1/ReflectionBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton1/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -123,6 +118,7 @@
     "Application.PrinterTest.executor": "Run",
     "Application.PutAllZerosToEnd.executor": "Run",
     "Application.RandomGeneration.executor": "Run",
+    "Application.ReflectionBreak.executor": "Run",
     "Application.ReflectionSingleton.executor": "Run",
     "Application.ReverseAString.executor": "Run",
     "Application.RotateTheArray.executor": "Run",
@@ -171,7 +167,7 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreatingAnnotations">
+  <component name="RunManager" selected="Application.ReflectionBreak">
     <configuration name="ComparatorEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.practise1.ComparatorEval" />
       <module name="basictest12" />
@@ -198,8 +194,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise1.Factorial" />
+    <configuration name="LambdaEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise1.LambdaEval" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -211,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise1.LambdaEval" />
+    <configuration name="ReflectionBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.singleton1.ReflectionBreak" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise1.*" />
+          <option name="PATTERN" value="org.example.singleton1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReflectionBreak" />
         <item itemvalue="Application.CreatingAnnotations" />
         <item itemvalue="Application.LambdaEval" />
         <item itemvalue="Application.ComparatorEval" />
         <item itemvalue="Application.StringJoinerTest" />
-        <item itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>
