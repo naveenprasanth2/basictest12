@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton1/ReflectionBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton1/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton1/CloneableBreak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/singleton1/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton1/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AddInSortedWay.executor": "Run",
     "Application.AnimalEval.executor": "Run",
     "Application.Anonymous (1).executor": "Run",
@@ -167,13 +167,13 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SerializableBreak">
-    <configuration name="ComparatorEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise1.ComparatorEval" />
+  <component name="RunManager" selected="Application.CloneableBreak">
+    <configuration name="CloneableBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.singleton1.CloneableBreak" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise1.*" />
+          <option name="PATTERN" value="org.example.singleton1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CloneableBreak" />
         <item itemvalue="Application.SerializableBreak" />
         <item itemvalue="Application.ReflectionBreak" />
         <item itemvalue="Application.CreatingAnnotations" />
         <item itemvalue="Application.LambdaEval" />
-        <item itemvalue="Application.ComparatorEval" />
       </list>
     </recent_temporary>
   </component>
@@ -253,6 +253,9 @@
       <updated>1710042242175</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

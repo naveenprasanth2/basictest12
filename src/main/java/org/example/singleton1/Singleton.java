@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 @Setter
 @Getter
-public class Singleton implements Serializable {
+public class Singleton implements Serializable, Cloneable {
     private static volatile Singleton singleton;
     private String name;
 
@@ -22,5 +22,15 @@ public class Singleton implements Serializable {
             }
         }
         return singleton;
+    }
+
+    @Override
+    public Singleton clone() {
+        try {
+            // TODO: copy mutable state here, so the clone can't change the internals of the original
+            return (Singleton) super.clone();
+        } catch (CloneNotSupportedException e) {
+            throw new AssertionError();
+        }
     }
 }
