@@ -1,9 +1,6 @@
 package org.example.basics;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.List;
 
@@ -11,6 +8,7 @@ import java.util.List;
 @Builder
 @Getter
 @Setter
+@ToString
 public class Employee {
     private String name;
     private int age;

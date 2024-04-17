@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise1/ComparatorEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise1/ComparatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise1/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise1/StringJoinerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/threads/ThreadRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/ThreadRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/basics/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/basics/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +72,7 @@
     "Application.CheckPalindrome.executor": "Run",
     "Application.CheckSubString.executor": "Run",
     "Application.CloneBreak.executor": "Run",
+    "Application.ComparatorEval.executor": "Run",
     "Application.ConsecutiveCount.executor": "Run",
     "Application.ConsecutiveCountNew.executor": "Run",
     "Application.ConvertCharacter.executor": "Run",
@@ -76,6 +81,7 @@
     "Application.DateTimeEval.executor": "Run",
     "Application.EmailValidation.executor": "Run",
     "Application.EmployeeEval.executor": "Run",
+    "Application.Factorial.executor": "Run",
     "Application.FibonacciNumbers.executor": "Run",
     "Application.FibonacciSeries.executor": "Run",
     "Application.FilterName.executor": "Run",
@@ -121,6 +127,7 @@
     "Application.SortUsingPriorQueue.executor": "Run",
     "Application.SortedList.executor": "Debug",
     "Application.SortedListInsertion.executor": "Run",
+    "Application.StringJoinerTest.executor": "Run",
     "Application.StringList.executor": "Run",
     "Application.StudentEval.executor": "Run",
     "Application.SumOfAnArray.executor": "Run",
@@ -158,9 +165,9 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadRunnable">
-    <configuration name="Implementation (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise1.Implementation" />
+  <component name="RunManager" selected="Application.ComparatorEval">
+    <configuration name="ComparatorEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise1.ComparatorEval" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -172,8 +179,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise1.Implementation" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise1.Factorial" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -185,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threads.ThreadDemo" />
+    <configuration name="StringJoinerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise1.StringJoinerTest" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.threads.*" />
+          <option name="PATTERN" value="org.example.practise1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComparatorEval" />
+        <item itemvalue="Application.StringJoinerTest" />
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.ThreadRunnable" />
         <item itemvalue="Application.ThreadRunnable (1)" />
-        <item itemvalue="Application.Implementation (1)" />
-        <item itemvalue="Application.Implementation" />
-        <item itemvalue="Application.ThreadDemo" />
       </list>
     </recent_temporary>
   </component>
