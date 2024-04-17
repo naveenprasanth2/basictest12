@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton1/CloneableBreak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/singleton1/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton1/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +69,7 @@
     "Application.CheckPalindrome.executor": "Run",
     "Application.CheckSubString.executor": "Run",
     "Application.CloneBreak.executor": "Run",
+    "Application.CloneableBreak.executor": "Run",
     "Application.ComparatorEval.executor": "Run",
     "Application.ConsecutiveCount.executor": "Run",
     "Application.ConsecutiveCountNew.executor": "Run",
