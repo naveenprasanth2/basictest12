@@ -167,7 +167,7 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReflectionBreak">
+  <component name="RunManager" selected="Application.SerializableBreak">
     <configuration name="ComparatorEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.practise1.ComparatorEval" />
       <module name="basictest12" />
@@ -220,12 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringJoinerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise1.StringJoinerTest" />
+    <configuration name="SerializableBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.singleton1.SerializableBreak" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise1.*" />
+          <option name="PATTERN" value="org.example.singleton1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SerializableBreak" />
         <item itemvalue="Application.ReflectionBreak" />
         <item itemvalue="Application.CreatingAnnotations" />
         <item itemvalue="Application.LambdaEval" />
         <item itemvalue="Application.ComparatorEval" />
-        <item itemvalue="Application.StringJoinerTest" />
       </list>
     </recent_temporary>
   </component>

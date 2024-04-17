@@ -4,9 +4,11 @@ package org.example.singleton1;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.io.Serializable;
+
 @Setter
 @Getter
-public class Singleton {
+public class Singleton implements Serializable {
     private static volatile Singleton singleton;
     private String name;
 
