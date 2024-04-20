@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="" />
+    <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/OuterClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,6 +114,7 @@
     "Application.NoOfOccurrences.executor": "Run",
     "Application.NodeEval.executor": "Run",
     "Application.NumberGuessingGame.executor": "Run",
+    "Application.OuterClass.executor": "Run",
     "Application.PassByValueOrReference.executor": "Run",
     "Application.PasswordValidation.executor": "Run",
     "Application.PersonEval.executor": "Run",
@@ -170,22 +174,9 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.PassByValueOrReference">
+  <component name="RunManager" selected="Application.OuterClass (1)">
     <configuration name="AddAtIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.linkedlist.AddAtIndex" />
-      <module name="basictest12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NodeEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedlist.NodeEval" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -210,6 +201,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OuterClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise3.OuterClass" />
+      <module name="basictest12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.practise3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OuterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise3.OuterClass" />
+      <module name="basictest12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.practise3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PassByValueOrReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.challenges.PassByValueOrReference" />
       <module name="basictest12" />
@@ -223,26 +240,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise2.SortedList" />
-      <module name="basictest12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.practise2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OuterClass (1)" />
+        <item itemvalue="Application.OuterClass" />
         <item itemvalue="Application.PassByValueOrReference" />
         <item itemvalue="Application.NumberGuessingGame" />
         <item itemvalue="Application.AddAtIndex" />
-        <item itemvalue="Application.NodeEval" />
-        <item itemvalue="Application.SortedList" />
       </list>
     </recent_temporary>
   </component>
