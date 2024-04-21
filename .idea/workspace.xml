@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/Casting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/CharacterChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/SealedClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/OptionalPractise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practise3/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/Cat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +121,7 @@
     "Application.NoOfOccurrences.executor": "Run",
     "Application.NodeEval.executor": "Run",
     "Application.NumberGuessingGame.executor": "Run",
+    "Application.OptionalPractise.executor": "Run",
     "Application.OuterClass (1).executor": "Run",
     "Application.OuterClass.executor": "Run",
     "Application.PassByValueOrReference.executor": "Run",
@@ -191,7 +188,7 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Casting">
+  <component name="RunManager" selected="Application.OptionalPractise">
     <configuration name="Casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.practise3.Casting" />
       <module name="basictest12" />
@@ -207,6 +204,19 @@
     </configuration>
     <configuration name="CharacterChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.practise3.CharacterChange" />
+      <module name="basictest12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.practise3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalPractise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise3.OptionalPractise" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -244,26 +254,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintNumbersWithoutLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise3.PrintNumbersWithoutLoop" />
-      <module name="basictest12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.practise3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OptionalPractise" />
         <item itemvalue="Application.Casting" />
         <item itemvalue="Application.CharacterChange" />
         <item itemvalue="Application.PrintNumbersWithoutLoop (2)" />
         <item itemvalue="Application.PrintNumbersWithoutLoop (1)" />
-        <item itemvalue="Application.PrintNumbersWithoutLoop" />
       </list>
     </recent_temporary>
   </component>
