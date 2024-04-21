@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/Abstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/Interface1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/Interface2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/InterfaceEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/RockPaperScissor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/AbstractEval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/PrintNumbersWithoutLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/PrintWithoutLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practise3/Abstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/Abstract.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AbstractEval.executor": "Run",
     "Application.AddAtIndex.executor": "Run",
     "Application.AddInSortedWay.executor": "Run",
     "Application.AnimalEval.executor": "Run",
@@ -129,6 +129,9 @@
     "Application.PrimeNumber.executor": "Run",
     "Application.PrintCommands.executor": "Run",
     "Application.PrintInFormat.executor": "Run",
+    "Application.PrintNumbersWithoutLoop (1).executor": "Run",
+    "Application.PrintNumbersWithoutLoop.executor": "Run",
+    "Application.PrintWithoutLoop.executor": "Run",
     "Application.PrinterTest.executor": "Run",
     "Application.PutAllZerosToEnd.executor": "Run",
     "Application.RandomGeneration.executor": "Run",
@@ -183,9 +186,9 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.InterfaceEval">
-    <configuration name="AnonymousClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise3.AnonymousClass" />
+  <component name="RunManager" selected="Application.PrintNumbersWithoutLoop (2)">
+    <configuration name="AbstractEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise3.AbstractEval" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -197,8 +200,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise3.FunctionalImpl" />
+    <configuration name="PrintNumbersWithoutLoop (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise3.PrintNumbersWithoutLoop" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -210,8 +213,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceEval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise3.InterfaceEval" />
+    <configuration name="PrintNumbersWithoutLoop (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise3.PrintNumbersWithoutLoop" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -223,8 +226,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OuterClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise3.OuterClass" />
+    <configuration name="PrintNumbersWithoutLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise3.PrintNumbersWithoutLoop" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -236,8 +239,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RockPaperScissor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise3.RockPaperScissor" />
+    <configuration name="PrintWithoutLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise3.PrintWithoutLoop" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
@@ -251,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterfaceEval" />
-        <item itemvalue="Application.RockPaperScissor" />
-        <item itemvalue="Application.FunctionalImpl" />
-        <item itemvalue="Application.AnonymousClass" />
-        <item itemvalue="Application.OuterClass (1)" />
+        <item itemvalue="Application.PrintNumbersWithoutLoop (2)" />
+        <item itemvalue="Application.PrintNumbersWithoutLoop (1)" />
+        <item itemvalue="Application.PrintNumbersWithoutLoop" />
+        <item itemvalue="Application.PrintWithoutLoop" />
+        <item itemvalue="Application.AbstractEval" />
       </list>
     </recent_temporary>
   </component>
