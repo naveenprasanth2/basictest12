@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/OuterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/AnonymousClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/FunctionalImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/MyFunctionalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practise3/MyInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +21,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -95,6 +99,7 @@
     "Application.FirstNonRepCharacter.executor": "Run",
     "Application.FlatMapEval.executor": "Run",
     "Application.FuncEval.executor": "Run",
+    "Application.FunctionalImpl.executor": "Run",
     "Application.GenerateRandom.executor": "Run",
     "Application.GenerateRandomValue.executor": "Run",
     "Application.GenericsMethods.executor": "Run",
@@ -114,6 +119,7 @@
     "Application.NoOfOccurrences.executor": "Run",
     "Application.NodeEval.executor": "Run",
     "Application.NumberGuessingGame.executor": "Run",
+    "Application.OuterClass (1).executor": "Run",
     "Application.OuterClass.executor": "Run",
     "Application.PassByValueOrReference.executor": "Run",
     "Application.PasswordValidation.executor": "Run",
@@ -174,13 +180,13 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.OuterClass (1)">
-    <configuration name="AddAtIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedlist.AddAtIndex" />
+  <component name="RunManager" selected="Application.FunctionalImpl">
+    <configuration name="AnonymousClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise3.AnonymousClass" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedlist.*" />
+          <option name="PATTERN" value="org.example.practise3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberGuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenges.NumberGuessingGame" />
+    <configuration name="FunctionalImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practise3.FunctionalImpl" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.challenges.*" />
+          <option name="PATTERN" value="org.example.practise3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FunctionalImpl" />
+        <item itemvalue="Application.AnonymousClass" />
         <item itemvalue="Application.OuterClass (1)" />
         <item itemvalue="Application.OuterClass" />
         <item itemvalue="Application.PassByValueOrReference" />
-        <item itemvalue="Application.NumberGuessingGame" />
-        <item itemvalue="Application.AddAtIndex" />
       </list>
     </recent_temporary>
   </component>
