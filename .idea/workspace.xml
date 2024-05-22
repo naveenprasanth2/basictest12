@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="" />
+    <list default="true" id="95604c9f-ecf6-451d-9edc-ec4536bbaed6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sin.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton2/CloneableBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton2/Reflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton2/Serializable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton2/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,130 +56,133 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AbstractEval.executor": "Run",
-    "Application.AddAtIndex.executor": "Run",
-    "Application.AddInSortedWay.executor": "Run",
-    "Application.AnimalEval.executor": "Run",
-    "Application.Anonymous (1).executor": "Run",
-    "Application.Anonymous.executor": "Run",
-    "Application.AnonymousClass.executor": "Run",
-    "Application.AnonymousInnerClass (1).executor": "Run",
-    "Application.AnonymousInnerClass.executor": "Run",
-    "Application.AverageOfAnArray.executor": "Run",
-    "Application.BalString.executor": "Run",
-    "Application.BalancedString.executor": "Run",
-    "Application.Casting.executor": "Run",
-    "Application.CharacterChange.executor": "Run",
-    "Application.CheckAnagram.executor": "Run",
-    "Application.CheckIsoGram.executor": "Run",
-    "Application.CheckIsogram.executor": "Run",
-    "Application.CheckPalindrome.executor": "Run",
-    "Application.CheckSubString.executor": "Run",
-    "Application.CloneBreak.executor": "Run",
-    "Application.CloneableBreak.executor": "Run",
-    "Application.ComparatorEval.executor": "Run",
-    "Application.ConsecutiveCount.executor": "Run",
-    "Application.ConsecutiveCountNew.executor": "Run",
-    "Application.ConvertCharacter.executor": "Run",
-    "Application.ConvertInteger.executor": "Run",
-    "Application.CreatingAnnotations.executor": "Run",
-    "Application.CurrencyManipulation.executor": "Run",
-    "Application.DateTimeEval.executor": "Run",
-    "Application.EmailValidation.executor": "Run",
-    "Application.EmployeeEval.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.FibonacciNumbers.executor": "Run",
-    "Application.FibonacciSeries.executor": "Run",
-    "Application.FilterName.executor": "Run",
-    "Application.FindDuplicate.executor": "Run",
-    "Application.FindDuplicateUsingSet.executor": "Run",
-    "Application.FindFirstAndLast.executor": "Run",
-    "Application.FindNonRepCharacter.executor": "Run",
-    "Application.FindWordsFromSentence.executor": "Run",
-    "Application.FindingAnyMissingNum.executor": "Run",
-    "Application.FirstNonRepCharacter.executor": "Run",
-    "Application.FlatMapEval.executor": "Run",
-    "Application.FuncEval.executor": "Run",
-    "Application.FunctionalImpl.executor": "Run",
-    "Application.GenerateRandom.executor": "Run",
-    "Application.GenerateRandomValue.executor": "Run",
-    "Application.GenericsMethods.executor": "Run",
-    "Application.GetUpperCase.executor": "Run",
-    "Application.Implementation (1).executor": "Run",
-    "Application.Implementation.executor": "Run",
-    "Application.InnerClass.executor": "Run",
-    "Application.InterfaceEval.executor": "Run",
-    "Application.JavaLatest.executor": "Run",
-    "Application.LambdaEval.executor": "Run",
-    "Application.MatchASubstring.executor": "Run",
-    "Application.MatchCharacter.executor": "Run",
-    "Application.MergeArray.executor": "Run",
-    "Application.MergeClassic.executor": "Run",
-    "Application.MergeSortedArray.executor": "Run",
-    "Application.MissingNumber.executor": "Run",
-    "Application.MultiThreadEval.executor": "Run",
-    "Application.NoOfOccurrences.executor": "Run",
-    "Application.NodeEval.executor": "Run",
-    "Application.NumberGuessingGame.executor": "Run",
-    "Application.OptionalPractise.executor": "Run",
-    "Application.OuterClass (1).executor": "Run",
-    "Application.OuterClass.executor": "Run",
-    "Application.PassByValueOrReference.executor": "Run",
-    "Application.PasswordValidation.executor": "Run",
-    "Application.PersonEval.executor": "Run",
-    "Application.PrimeNumber.executor": "Run",
-    "Application.PrintCommands.executor": "Run",
-    "Application.PrintInFormat.executor": "Run",
-    "Application.PrintNumbersWithoutLoop (1).executor": "Run",
-    "Application.PrintNumbersWithoutLoop (2).executor": "Run",
-    "Application.PrintNumbersWithoutLoop.executor": "Run",
-    "Application.PrintWithoutLoop.executor": "Run",
-    "Application.PrinterTest.executor": "Run",
-    "Application.PutAllZerosToEnd.executor": "Run",
-    "Application.RandomGeneration.executor": "Run",
-    "Application.RecordEval.executor": "Run",
-    "Application.ReflectionBreak.executor": "Run",
-    "Application.ReflectionSingleton.executor": "Run",
-    "Application.ReverseAString.executor": "Run",
-    "Application.RockPaperScissor.executor": "Run",
-    "Application.RotateTheArray.executor": "Run",
-    "Application.RotateTheArrayUsingArray.executor": "Run",
-    "Application.SealedEval.executor": "Run",
-    "Application.SerializableBreak.executor": "Run",
-    "Application.SortUsingPriorQueue.executor": "Run",
-    "Application.SortedList.executor": "Run",
-    "Application.SortedListInsertion.executor": "Run",
-    "Application.StringJoinerTest.executor": "Run",
-    "Application.StringList.executor": "Run",
-    "Application.StudentEval.executor": "Run",
-    "Application.SumOfAnArray.executor": "Run",
-    "Application.SumOfEvenNumbers.executor": "Run",
-    "Application.SwitchExp.executor": "Run",
-    "Application.ThreadDemo (1).executor": "Run",
-    "Application.ThreadDemo (2).executor": "Run",
-    "Application.ThreadDemo.executor": "Run",
-    "Application.ThreadRunnable (1).executor": "Run",
-    "Application.ThreadRunnable.executor": "Run",
-    "Application.ZerosToEnd.executor": "Run",
-    "Application.org.example.logics.SortedList.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.basictest12 [clean].executor": "Run",
-    "Maven.basictest12 [compile].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.preview.features.used": "true",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AbstractEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AddAtIndex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AddInSortedWay.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnimalEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Anonymous (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Anonymous.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnonymousClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnonymousInnerClass (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnonymousInnerClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AverageOfAnArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BalString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BalancedString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Casting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharacterChange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckAnagram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckIsoGram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckIsogram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckSubString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CloneBreak.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Cloneable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CloneableBreak.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComparatorEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConsecutiveCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConsecutiveCountNew.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConvertCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConvertInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreatingAnnotations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CurrencyManipulation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DateTimeEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmailValidation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibonacciNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibonacciSeries.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterName.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicateUsingSet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindFirstAndLast.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindNonRepCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindWordsFromSentence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindingAnyMissingNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstNonRepCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlatMapEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FuncEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionalImpl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenerateRandom.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenerateRandomValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericsMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetUpperCase.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Implementation (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Implementation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InnerClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterfaceEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaLatest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MatchASubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MatchCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeClassic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiThreadEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NoOfOccurrences.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NodeEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberGuessingGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptionalPractise.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OuterClass (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.OuterClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassByValueOrReference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PasswordValidation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PersonEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintCommands.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintInFormat.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintNumbersWithoutLoop (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintNumbersWithoutLoop (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintNumbersWithoutLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintWithoutLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrinterTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PutAllZerosToEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RandomGeneration.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecordEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reflection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReflectionBreak.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReflectionSingleton.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseAString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RockPaperScissor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateTheArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateTheArrayUsingArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SealedEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Serializable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SerializableBreak.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortUsingPriorQueue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortedListInsertion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringJoinerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentEval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfAnArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfEvenNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwitchExp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadDemo (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadDemo (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadRunnable (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZerosToEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.logics.SortedList.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.basictest12 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.basictest12 [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.annotations" />
@@ -184,13 +194,13 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.OptionalPractise">
-    <configuration name="Casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise3.Casting" />
+  <component name="RunManager" selected="Application.Reflection">
+    <configuration name="Cloneable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.singleton2.Cloneable" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise3.*" />
+          <option name="PATTERN" value="org.example.singleton2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise3.CharacterChange" />
+    <configuration name="CloneableBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.singleton2.CloneableBreak" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise3.*" />
+          <option name="PATTERN" value="org.example.singleton2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintNumbersWithoutLoop (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise3.PrintNumbersWithoutLoop" />
+    <configuration name="Reflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.singleton2.Reflection" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise3.*" />
+          <option name="PATTERN" value="org.example.singleton2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintNumbersWithoutLoop (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.practise3.PrintNumbersWithoutLoop" />
+    <configuration name="Serializable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.singleton2.Serializable" />
       <module name="basictest12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.practise3.*" />
+          <option name="PATTERN" value="org.example.singleton2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reflection" />
+        <item itemvalue="Application.Serializable" />
         <item itemvalue="Application.OptionalPractise" />
-        <item itemvalue="Application.Casting" />
-        <item itemvalue="Application.CharacterChange" />
-        <item itemvalue="Application.PrintNumbersWithoutLoop (2)" />
-        <item itemvalue="Application.PrintNumbersWithoutLoop (1)" />
+        <item itemvalue="Application.Cloneable" />
+        <item itemvalue="Application.CloneableBreak" />
       </list>
     </recent_temporary>
   </component>
